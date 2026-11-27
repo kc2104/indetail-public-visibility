@@ -24,11 +24,16 @@ jobs:
         run: pip install -r requirements.txt
       - name: Collect public RSS results
         run: python monitor.py
-      - name: Commit report
+      - name: Prepare dashboard data
+        run: |
+          mkdir -p docs/data
+          cp data/leads.json docs/data/leads.json
+          cp data/leads.csv docs/data/leads.csv
+      - name: Commit report and dashboard data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/leads.csv data/leads.json
+          git add data/leads.csv data/leads.json docs/data/leads.csv docs/data/leads.json
           git diff --cached --quiet || git commit -m "Update public demand report"
           git push
 
@@ -39,13 +44,8 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout latest repository data
+      - name: Checkout latest dashboard files
         uses: actions/checkout@v4
-      - name: Prepare dashboard artifact
-        run: |
-          mkdir -p docs/data
-          cp data/leads.json docs/data/leads.json
-          cp data/leads.csv docs/data/leads.csv
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload dashboard
