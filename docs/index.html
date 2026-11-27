@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102b2b">
+  <title>INDETAIL | Public Demand Monitor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-mark">I</span><div><b>INDETAIL</b><small>DESIGN STUDIO</small></div></div>
+      <div class="side-label">WORKSPACE</div>
+      <a class="nav active" href="#overview"><span>◫</span> Overview</a>
+      <a class="nav" href="#opportunities"><span>⌕</span> Public opportunities</a>
+      <a class="nav" href="#insights"><span>⌁</span> Search insights</a>
+      <div class="sidebar-bottom">
+        <span class="live-dot"></span><span>Public-source monitor</span>
+        <small>No connected accounts</small>
+      </div>
+    </aside>
+
+    <main class="main" id="overview">
+      <header class="topbar">
+        <div><div class="eyebrow">LEAD INTELLIGENCE / VADODARA</div><h1>Demand overview</h1><p class="muted">Public conversations and search-index signals for interior design services.</p></div>
+        <div class="top-actions"><span class="status"><i></i> Monitor dashboard</span><button id="refreshBtn" class="refresh">↻ Refresh data</button></div>
+      </header>
+
+      <section class="notice">
+        <div class="notice-icon">i</div>
+        <div><b>Public information only</b><p>This dashboard does not show private search histories or identify anonymous searchers. Every opportunity needs manual review before outreach.</p></div>
+      </section>
+
+      <section class="stats">
+        <article class="stat-card"><div class="stat-label">TOTAL PUBLIC RESULTS</div><div class="stat-value" id="totalCount">—</div><div class="stat-foot">Collected source items</div></article>
+        <article class="stat-card"><div class="stat-label">HIGH-INTENT SIGNALS</div><div class="stat-value" id="highCount">—</div><div class="stat-foot">Intent score 60 or above</div></article>
+        <article class="stat-card"><div class="stat-label">VADODARA MATCHES</div><div class="stat-value" id="localCount">—</div><div class="stat-foot">Location mentioned publicly</div></article>
+        <article class="stat-card"><div class="stat-label">SOURCES FOUND</div><div class="stat-value" id="sourceCount">—</div><div class="stat-foot">Public RSS sources</div></article>
+      </section>
+
+      <section class="content-grid" id="insights">
+        <article class="panel">
+          <div class="panel-head"><div><div class="eyebrow">DISCOVERY</div><h2>Opportunity signals</h2></div><span class="subtle-tag">By intent score</span></div>
+          <div id="scoreBars" class="bars"><div class="empty">No data collected yet.</div></div>
+        </article>
+        <article class="panel">
+          <div class="panel-head"><div><div class="eyebrow">SOURCE MIX</div><h2>Where results come from</h2></div></div>
+          <div id="sourceMix" class="source-list"><div class="empty">Waiting for first collection.</div></div>
+        </article>
+      </section>
+
+      <section class="panel opportunities" id="opportunities">
+        <div class="panel-head results-head"><div><div class="eyebrow">PUBLIC DISCUSSIONS & INDEXED PAGES</div><h2>Latest opportunities</h2><p class="muted">Open the original source to verify the request and context.</p></div><span class="count-pill" id="resultCount">0 results</span></div>
+        <div class="filters">
+          <input id="searchInput" type="search" placeholder="Search requirement, area or keyword…">
+          <select id="sourceFilter"><option value="">All sources</option></select>
+          <select id="intentFilter"><option value="0">All intent scores</option><option value="40">40+ intent</option><option value="60">60+ intent</option><option value="80">80+ intent</option></select>
+          <select id="locationFilter"><option value="">All locations</option><option value="yes">Vadodara match</option></select>
+        </div>
+        <div class="table-wrap">
+          <table><thead><tr><th>PUBLIC SOURCE</th><th>REQUIREMENT / PAGE</th><th>LOCATION</th><th>INTENT</th><th>DATE</th><th></th></tr></thead><tbody id="resultsBody"><tr><td colspan="6" class="empty-cell">No results yet. Run the GitHub Actions workflow to collect public data.</td></tr></tbody></table>
+        </div>
+        <div class="table-foot"><span id="showingText">Showing 0 items</span><span>Data refreshes after each successful GitHub Actions run.</span></div>
+      </section>
+      <footer>INDETAIL Public Demand Monitor <span>Built for internal research · Public sources only</span></footer>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

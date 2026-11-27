@@ -1,0 +1,39 @@
+{
+  "location_terms": [
+    "Vadodara",
+    "Baroda",
+    "Gujarat"
+  ],
+  "queries": [
+    "\"interior designer\" Vadodara",
+    "\"interior design\" Vadodara",
+    "\"home renovation\" Vadodara",
+    "\"modular kitchen\" Vadodara",
+    "\"2BHK interior\" Vadodara",
+    "\"3BHK interior\" Vadodara",
+    "\"looking for interior designer\" Vadodara",
+    "\"recommend interior designer\" Vadodara",
+    "\"office interior\" Vadodara",
+    "\"architect\" \"interior\" Vadodara"
+  ],
+  "intent_terms": [
+    "looking for",
+    "recommend",
+    "recommendation",
+    "need an",
+    "hire",
+    "planning",
+    "renovation",
+    "new home",
+    "new flat",
+    "2bhk",
+    "3bhk",
+    "modular kitchen",
+    "interior designer",
+    "interior design",
+    "quotation",
+    "estimate",
+    "budget"
+  ],
+  "reddit_subreddit": "vadodara"
+}
