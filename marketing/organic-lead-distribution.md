@@ -16,7 +16,7 @@ Use these links consistently in business profiles, directory listings, portfolio
 
 **Location focus:** Vadodara, Gujarat, India
 
-**Core category wording:** Architecture and interior design studio
+**Core category wording:** Interior Design & Architecture Studio (owner-confirmed). **Not** a furniture shop, furniture retailer, or primarily a furniture/product business.
 
 **Services to mention where accurate:** Residential interior design, commercial interior design, architecture, turnkey interior projects, space planning, furniture design, hospitality and landscape design.
 
@@ -24,11 +24,11 @@ Do not claim awards, years of experience, project counts, service guarantees, pr
 
 ## Short business description
 
-INDETAIL Design Studio is an architecture and interior design studio based in Vadodara, Gujarat. The studio works across residential and commercial spaces, with services spanning interior design, architecture, turnkey projects, space planning, furniture design and hospitality-related design. Explore the studio's work and contact the team through its official website.
+INDETAIL Design Studio is an interior design and architecture studio based in Vadodara, Gujarat. The studio works across residential and commercial spaces, with services spanning interior design, architecture, turnkey projects, space planning, furniture design and hospitality-related design. Explore the studio's work and contact the team through its official website.
 
 ## Longer business description
 
-INDETAIL Design Studio is a Vadodara-based architecture and interior design practice creating thoughtful spaces for residential and commercial clients. Its work spans interior design, architectural planning, turnkey projects, space planning, furniture design and hospitality-related environments. Visit the official website to explore the studio and enquire about a project.
+INDETAIL Design Studio is a Vadodara-based interior design and architecture studio creating thoughtful spaces for residential and commercial clients. Its work spans interior design, architectural planning, turnkey projects, space planning, furniture design and hospitality-related environments. Visit the official website to explore the studio and enquire about a project.
 
 ## Search phrases to use naturally
 
