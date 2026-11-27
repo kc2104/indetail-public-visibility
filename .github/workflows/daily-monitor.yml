@@ -6,13 +6,16 @@ on:
     - cron: "30 3 * * *" # 09:00 Asia/Kolkata
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
 jobs:
-  collect:
+  deploy-dashboard:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -29,23 +32,6 @@ jobs:
           mkdir -p docs/data
           cp data/leads.json docs/data/leads.json
           cp data/leads.csv docs/data/leads.csv
-      - name: Commit report and dashboard data
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/leads.csv data/leads.json docs/data/leads.csv docs/data/leads.json
-          git diff --cached --quiet || git commit -m "Update public demand report"
-          git push
-
-  deploy-dashboard:
-    needs: collect
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Checkout latest dashboard files
-        uses: actions/checkout@v4
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload dashboard
