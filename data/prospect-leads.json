@@ -1,0 +1,62 @@
+{
+  "updated_at": "2026-11-27",
+  "note": "Publicly visible request posts discovered through web search. These are not verified active enquiries. No private contact details have been collected. Re-check the original thread before outreach.",
+  "leads": [
+    {
+      "id": "VD-2026-001",
+      "published_date": "2026-06-08",
+      "platform": "Reddit · r/indian_architects",
+      "title": "Looking for architect recommendations for building a home in Boriyavi, Anand",
+      "requirement": "New home design; wants an architect recommendation with reasonable rates. The post says the owner is open to firms based in Anand, Kheda, Vadodara or Ahmedabad and willing to travel to site.",
+      "location": "Boriyavi, Anand · adjacent-market opportunity",
+      "service_fit": "Architecture + full-home interior design",
+      "priority": "Medium",
+      "status": "Unverified · older public post; check whether the requirement is still open",
+      "contact_method": "Reply on the original Reddit thread or send a Reddit DM only if the user has enabled/accepts messages.",
+      "source_url": "https://www.reddit.com/r/Indian_architects/comments/1tzvl6o/looking_for_architect_recommendations_for/",
+      "source_date_note": "Search result shows public post dated 8 June 2026."
+    },
+    {
+      "id": "VD-2026-002",
+      "published_date": "2026-05-02",
+      "platform": "Reddit · r/vadodara",
+      "title": "Renovations queries – kitchen renovation and modular kitchen advice",
+      "requirement": "Person planning a first kitchen renovation asks about modular-kitchen brands, quality, durability, after-sales service and local dealers with a showroom/office.",
+      "location": "Vadodara · direct local match",
+      "service_fit": "Kitchen design, modular kitchen planning and renovation consultation",
+      "priority": "High",
+      "status": "Unverified · older public post; check whether the requirement is still open",
+      "contact_method": "Reply helpfully on the original Reddit thread; offer a no-pressure consultation only if community rules allow.",
+      "source_url": "https://www.reddit.com/r/vadodara/comments/1t1llr0/renovations_queries/",
+      "source_date_note": "Search result shows public post dated 2 May 2026."
+    },
+    {
+      "id": "VD-2026-003",
+      "published_date": "2026-02-21",
+      "platform": "Reddit · r/vadodara",
+      "title": "Looking for architecture for home design in Vadodara",
+      "requirement": "Person wants an architect to prepare a new-home design and asks for recommendations with reasonable rates.",
+      "location": "Vadodara · direct local match",
+      "service_fit": "Architecture, space planning and full-home interiors",
+      "priority": "High",
+      "status": "Unverified · older public post; check whether the requirement is still open",
+      "contact_method": "Reply on the original Reddit thread or send a respectful Reddit DM if appropriate. Do not reuse phone numbers posted by commenters; they may belong to service providers, not the requester.",
+      "source_url": "https://www.reddit.com/r/vadodara/comments/1rak54m/looking_for_architecture_for_home_design_in/",
+      "source_date_note": "Search result shows public post dated 21 February 2026."
+    },
+    {
+      "id": "VD-2025-004",
+      "published_date": "2025-10-10",
+      "platform": "Reddit · r/vadodara",
+      "title": "Looking for interior designers",
+      "requirement": "Person said they were looking to hire an interior designer for a new home and asked for recommendations.",
+      "location": "Vadodara · direct local match",
+      "service_fit": "Full-home interior design",
+      "priority": "Low",
+      "status": "Stale · more than one year old; use only to study demand language, not as an active lead",
+      "contact_method": "Do not cold-message as an active prospect. Review comments for context and use the wording to improve INDETAIL's content.",
+      "source_url": "https://www.reddit.com/r/vadodara/comments/1o2t6b4/looking_for_interior_designers/",
+      "source_date_note": "Search result shows public post dated 10 October 2025."
+    }
+  ]
+}
