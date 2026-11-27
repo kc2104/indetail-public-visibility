@@ -85,15 +85,18 @@ def collect():
 
     previous = {}
     if CSV_PATH.exists():
-        with CSV_PATH.open(newline="", encoding="utf-8") as f:
+        # utf-8-sig safely handles both plain UTF-8 and files with a BOM.
+        with CSV_PATH.open(newline="", encoding="utf-8-sig") as f:
             for row in csv.DictReader(f):
-                previous[row["url"]] = row
+                url = row.get("url")
+                if url:
+                    previous[url] = row
 
     previous.update(rows)
     ordered = sorted(previous.values(), key=lambda r: (r.get("published_at", ""), r.get("collected_at", "")), reverse=True)
 
     with CSV_PATH.open("w", newline="", encoding="utf-8-sig") as f:
-        writer = csv.DictWriter(f, fieldnames=FIELDS)
+        writer = csv.DictWriter(f, fieldnames=FIELDS, extrasaction="ignore")
         writer.writeheader()
         writer.writerows(ordered)
 
