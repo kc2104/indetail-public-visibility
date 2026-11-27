@@ -1,6 +1,8 @@
 name: INDETAIL Public Demand Monitor
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
   schedule:
     - cron: "30 3 * * *" # 09:00 Asia/Kolkata
@@ -34,6 +36,8 @@ jobs:
           cp data/leads.csv docs/data/leads.csv
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - name: Upload dashboard
         uses: actions/upload-pages-artifact@v3
         with:
