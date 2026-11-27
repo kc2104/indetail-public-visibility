@@ -1,7 +1,21 @@
 {
   "updated_at": "2026-11-27",
-  "note": "Publicly visible request posts discovered through web search. These are not verified active enquiries. No private contact details have been collected. Re-check the original thread before outreach.",
+  "note": "Publicly visible request posts discovered through web search. These are not verified active enquiries. No private contact details have been collected. Re-check original threads and community rules before outreach.",
   "leads": [
+    {
+      "id": "VD-2026-005",
+      "published_date": "2026-09-07",
+      "platform": "Reddit · r/vadodara",
+      "title": "Looking for an interior designer/carpenter for a 2BHK in New Karelibaug",
+      "requirement": "2BHK flat nearing completion. Wants a reliable designer, carpenter or design-and-execution team for modular kitchen, wardrobes, TV unit, storage and essential furniture. Prefers functional, affordable work without compromising materials and workmanship.",
+      "location": "New Karelibaug, Vadodara · direct local match",
+      "service_fit": "2BHK full-home interiors, modular kitchen, wardrobes and storage",
+      "priority": "High relevance · verify freshness",
+      "status": "Unverified · public post from 7 Sep 2026; check whether the requirement is still open before outreach",
+      "contact_method": "Reply to the original Reddit thread with a helpful, transparent introduction and portfolio link, only if subreddit rules permit. No requester email or phone is published in the source.",
+      "source_url": "https://www.reddit.com/r/vadodara/comments/1w9jhqx/looking_for_recommendations_for_a_good_interior/",
+      "source_date_note": "Public post dated 7 September 2026; re-check thread status before treating as active."
+    },
     {
       "id": "VD-2026-001",
       "published_date": "2026-06-08",
