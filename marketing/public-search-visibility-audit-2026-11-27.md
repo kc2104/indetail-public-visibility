@@ -6,6 +6,10 @@ Official website: https://indetail-design.com/
 Instagram: https://www.instagram.com/indetail__designstudio
 Google Maps share URL: https://share.google/4GZPAOcj1lHkUk11Z
 
+## Owner-confirmed correction (27 November 2026)
+
+The business is an **Interior Design & Architecture Studio**, not a furniture shop or furniture-product business. Third-party directory categories stating “Furniture and Product” should be flagged as incorrect and corrected through the directory's legitimate owner/contact workflow. Do not infer that furniture design as a service makes furniture retail the primary category.
+
 ## Verified public findings
 
 1. The homepage is indexed and currently uses the title "Indetail Design Studio | Interior Designers & Architecture Experts". The page describes the business as an architecture and interior design firm based in Vadodara, Gujarat. The title does not include Vadodara.
